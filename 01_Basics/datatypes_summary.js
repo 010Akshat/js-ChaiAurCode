@@ -18,7 +18,7 @@ console.log(id==anotherId)// false , Symbol is just used to make value doesnt ma
 const bigNumber=81209312n// now it becomes bigint by using n at last
 
 
-// References (Non- Primitive)
+// Reference (Non- Primitive)
 // They are call by reference whenever you share them , their memory location is shared
 // Arrays, Objects, Functions
 
@@ -49,4 +49,29 @@ console.log(typeof id)//symbol
 console.log(typeof heros)//object
 console.log(typeof myObj)//object
 console.log(typeof myFunction)//function (actually it is function object   Above three are object just this is called function object)
+
+//-----------------------------------------------------------------------------------------------------//
+
+// Understanding Memory
+
+// Stack (it is a memory used by primitive data types) // Whenever stack memory is used , you get a copy of declared variable
+// Heap(it is used by reference data types) // Whenever heap is used , you get reference of original value, so change will occur in original value 
+
+let myYoutubeName="hiteshchoudharydotcom"
+
+let anothername=myYoutubeName
+anothername="chaiaurcode"
+
+console.log(myYoutubeName)// hiteshchoudharydotcom
+console.log(anothername)//chaiaurcode
+
+let userOne ={
+    email:"user@google.com",
+    upi :"user@ybl"
+}
+let userTwo=userOne
+userTwo.email="hitesh@google.com"
+console.log(userOne.email)//hitesh@google.com
+console.log(userTwo.email)//hitesh@google.com
+
 
