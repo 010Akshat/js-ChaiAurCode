@@ -4,6 +4,7 @@ const repoCount = 50
 console.log(name + repoCount + " Value")
 // This way writing is old fashioned and not recommended now
 
+// String Interpolation
 console.log(`Hello my name is ${name} and my repoCount is ${repoCount}`)
 // This is the modern way and more preferred nowadays
 
