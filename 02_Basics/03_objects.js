@@ -31,7 +31,7 @@ const JsUsers = {
 }
 
 console.log(JsUsers.email)//hitesh@google.com
-console.log(JsUsers["email"])//hitesh@google.com
+console.log(JsUsers["email"])//hitesh@google.com  // Square Bracket Notation
 // why do we need two ways
 // Because to access "full name" their is only one way i.e second one
 console.log(JsUsers["fullname"])

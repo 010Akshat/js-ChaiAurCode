@@ -74,3 +74,21 @@ It will be of great use is future*/
 // Sometimes you are looping through objects in array , and sometimes value does not exist , for that
 console.log(tinderUser.hasOwnProperty('isLoggedIn')) // true 
 console.log(tinderUser.hasOwnProperty('isLogged')) // false
+
+//-------------------DOUBT---------------------
+// What does it practically mean that you cannot create muktiple instances of of sigleton object???????
+
+
+//-------------------Destructuring Of Object--------------------------
+const course={
+    coursename:"js in hindi",
+    price:"999",
+    courseInstructor:"hitesh"
+}
+
+const {courseInstructor} = course // it is destructuring 
+console.log(courseInstructor) // hitesh // we dont need tpo write course.courseInstructor
+
+// You can change name also
+const {price:p}=course
+console.log(p) //999
