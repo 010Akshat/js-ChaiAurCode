@@ -73,7 +73,7 @@ function addthree(num){
 }
 
 
-console.log(addfour(7)) // error Cannot access 'addfour' before initialization
+// console.log(addfour(7)) // error Cannot access 'addfour' before initialization
 const addfour=function(num){
     return num+4
 }
