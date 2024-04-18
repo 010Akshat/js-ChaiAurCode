@@ -175,3 +175,7 @@ return response.json()
 
 // Now , noticably in OUTPUT firstly we getting result of fetch and then our remaining promises
 // This we will study in next part;
+
+// Working of fetch i.e video 41 is written in next file fetch.js
+/* fetch('https://jsonplaceholder.typicode.com/users') ,
+ these five letters F E T C H and ye complete line ,iski baal ki khaal nikaalenge */
