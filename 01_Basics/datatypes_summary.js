@@ -4,7 +4,7 @@ are categorized into primitive and non-primitive*/
 //Primitive
 // They are call by value whenever you share them , their copy is shared and changes are made in copy
 /* 7 types:String,Number,Boolean,null,undefined,Symbol(generaly used in react to make button unique or value unique),
-BigiInt(Large Values) */
+BigInt(Large Values) */
 const score=100
 const scorevalue=100.3//(nothing like int or float in js , its just Number)
 const isLoggedIn = false
@@ -17,6 +17,7 @@ console.log(id==anotherId)// false , Symbol is just used to make value doesnt ma
 
 const bigNumber=81209312n// now it becomes bigint by using n at last
 
+//JavaScript is a dynamically typed language. Because data type will automatically assigned at the time of compilation or code execution.
 
 // Reference (Non- Primitive)
 // They are call by reference whenever you share them , their memory location is shared
