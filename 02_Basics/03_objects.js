@@ -18,7 +18,9 @@ Object.create // Way of creating constructor or singleton object
 
 //Object Literals
 
-const mySym= Symbol("akshat")
+const mySym= Symbol("akshat") //this line is used in object literal , don't confuse it with contructor or literal.
+
+// Literal
 const JsUsers = {
     name:"Hitesh",    // here name is by default string.
     "fullname":"hitesh choudhary",
