@@ -13,7 +13,7 @@ For example, it can be  used in database connectivity , as youy open the app you
 })();
 
 
-// it is similar to ()() where first parenthesis is function and second is function
+// it is similar to ()() where first parenthesis is function and second is execution
 
 
 
