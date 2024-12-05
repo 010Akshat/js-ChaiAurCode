@@ -25,5 +25,6 @@ console.log(undefined<0) // false
 // Main point to be noted here is that comparison operators  > <  >= <= and ==works differently
 
 // === strict check
-console.log("2"===2)//false
+console.log("2"===2)//false because strict check or double will also check datatype.
+console.log("2"==2)//true because here conversion will occur.
 
