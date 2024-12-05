@@ -20,7 +20,7 @@ Object.create // Way of creating constructor or singleton object
 
 const mySym= Symbol("akshat")
 const JsUsers = {
-    name:"Hitesh",
+    name:"Hitesh",    // here name is by default string.
     "fullname":"hitesh choudhary",
     [mySym]:"jain", // syntax for symbol
     age:18,
@@ -53,9 +53,6 @@ console.log(typeof JsUsers[mySym])  // DOUBT - Hitesh Choudhary said it is corre
 console.log(JsUsers[mySym])//jain
 
 
-JsUser.email="hitesh@chatpgt.com"
-Object.freeze(JsUser)// Now you cannot update key value pairs of object.
-JsUser.email="hitesh@microsoft.com" // This will not give error but change will not reflect when you will print JsUser.
 
 JsUsers.greeting = function(){
     console.log("Hello Js User")
