@@ -4,7 +4,7 @@ Date objects encapsulate an integral number that represents milliseconds since t
 at the beginning of January 1, 1970, UTC (the epoch).*/
 
 let myDate = new Date()
-// console.log(myDate)//2024-03-29T08:09:17.597Z
+// console.log(myDate)//2024-03-29T08:09:17.597Z  // not readable.
 // console.log(myDate.toString())//Fri Mar 29 2024 08:09:17 GMT+0000 (Coordinated Universal Time)
 // console.log(myDate.toDateString())//  Fri Mar 29 2024
 // console.log(myDate.toLocaleDateString())// 3/29/2024
